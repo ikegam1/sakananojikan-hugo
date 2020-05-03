@@ -45,3 +45,15 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "product"
+    label: "Product"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

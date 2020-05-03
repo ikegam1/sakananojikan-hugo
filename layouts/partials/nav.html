@@ -6,9 +6,10 @@
     {{ end }}
     <a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
     <a href='{{ .Site.BaseURL }}blogs'>{{ with .Site.Params.blogs }}{{ . }}{{ else }}Blogs{{ end }}</a>
+    <a href='{{ .Site.BaseURL }}products'>{{ with .Site.Params.products }}{{ . }}{{ else }}Products{{ end }}</a>
 
     {{ range $key, $val := .Site.Params.Links }}
-    <a href="{{ $val }}">{{ $key }}</a>
+    <!--<a href="{{ $val }}">{{ $key }}</a> -->
     {{ end }}
 
     {{ if .Site.Params.enableRSS }}
