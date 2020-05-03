@@ -3,11 +3,17 @@ title = "My First Post"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 date = 2019-04-28T21:05:06+08:00
 tags = [
+    "blog",
+    "dialy",
+    "alexa",
+    "google",
+    "clova",
+    "test",
     "SSG",
     "Hugo",
     "Website",
 ]
-categories = ["Hugo", "Themes"]
+categories = ["dialy", "Alexa", "VUI"]
 draft = false
 +++
 
