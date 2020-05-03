@@ -17,6 +17,11 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+      - label: "Top Page"
+        name: "top"
+        file: "content/_index.md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
       - label: "About Page"
         name: "about"
         file: "content/about/_index.md"
