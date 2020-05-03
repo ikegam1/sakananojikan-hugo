@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://cereus-pro.netlify.com/"
 languageCode = "id-ID"
-title = "Cereus Pro | Hugo Theme"
+title = "サカナノジカン"
 
 #Set googleAnalytics ID
 googleAnalytics = ""
@@ -9,11 +9,11 @@ googleAnalytics = ""
 hasCJKLanguage = false
 
 [params]
-	author = "arhen"
-	description = "Minimalist Blog Themes For Developer"
-	bio = "Blazing Fast & Minimalist Blog Themes"
+	author = "sakananojikan"
+	description = "VUI Design & Developpment Team"
+	bio = ""
 
-	twitter = "arhen_desu"
+	twitter = "sakananojikan"
 
 	enableRSS = true
 	enableToc = true
@@ -27,9 +27,9 @@ hasCJKLanguage = false
 	useDescriptionReplaceSummary = true
 
 
-	enableGoogleAnalytics = true
+	enableGoogleAnalytics = false
 
-	enableTwitterCard = true
+	enableTwitterCard = false
 	# The url for twitter card image, default is avatar.png in static/images directory
 	twitterCardImage = "images/avatar.jpg"
 
@@ -74,6 +74,6 @@ hasCJKLanguage = false
 
 # Add additional social link entries underneath
 [social]
-	twitter-square = "https://www.twitter.com/arhen_desu"
-	github-square = "https://www.github.com/arhen"
-	linkedin-square = "https://www.linkedin.com/in/rahmadslamet"
+	twitter-square = "https://www.twitter.com/sakananojikan"
+	github-square = "https://www.github.com/sakananojikan"
+	linkedin-square = "https://www.linkedin.com/"
